@@ -1,0 +1,14 @@
+.play "youtube link"
+.kwee
+.skip
+.clear
+.pause
+.resume
+**.stop** 
+
+
+Enchancemenets - 
+.help - with why are you dumb message - done
+.show_queue - with name of user who added - done
+.change_volume - your ears will hurt message - need to add
+.delete_last - x
