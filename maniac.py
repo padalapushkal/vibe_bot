@@ -1,3 +1,4 @@
+from discord import Embed, Color
 import discord
 from discord.ext import commands
 import os
@@ -126,6 +127,12 @@ def run_bot():
             await ctx.send(f"Current Queue:\n{queue_list}")
         else:
             await ctx.send("The queue is currently empty.")
+    # @client.command(name="check_kwee")
+    # async def check_queue(ctx):
+    #     if ctx.guild.id in queues and queues[ctx.guild.id]:
+    #         queue = queues[ctx.guild.id]
+    #         page_size = 3  # Number of items per page
+    #         num_pages = (len(queue) + page_size - 1) // page_size
     
     @client.command(name="info")
     async def help_command(ctx):
