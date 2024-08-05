@@ -11,4 +11,23 @@ Enchancemenets -
 .help - with why are you dumb message - done
 .show_queue - with name of user who added - done
 .change_volume - your ears will hurt message - need to add
-.delete_last - x
+.delete_last - is it even required? 
+.play_playlists - need to add support for playlists
+
+
+
+last checks before changes
+.boom - working fine
+.clear_kwee - need to check
+.help - need to check
+.pause - working fine
+.current - working fine
+.play - working fine
+.skip - working fine
+.info - working fine
+.kwee - working fine
+.resume - working fine
+.check_kwee - need to check
+
+
+
