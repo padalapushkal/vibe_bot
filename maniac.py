@@ -43,7 +43,9 @@ def run_bot():
             await play(ctx, link=link)
         else:
             await ctx.send("Queue is empty.")
+
     @client.command(name="play", help="Play a song from a YouTube link or search query.")
+    @commands.cooldown(1, 5, commands.BucketType.guild) # to make sure it doesn't get spammed. 
     async def play(ctx, *, link):
         if ctx.guild.id not in queues:
             queues[ctx.guild.id] = []
